@@ -21,7 +21,7 @@ function setup(){
 function draw(){
   background("pink");
   if(contestantCount === 2){
-    quiz.update();
+    quiz.update(1);
   }
   if(gameState === 1){
     clear();
